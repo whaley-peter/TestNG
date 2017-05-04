@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [demo]">
+  <test name="demo Test(failed)">
+    <parameter name="password" value="123"/>
+    <parameter name="sUsername" value="test1"/>
+    <classes>
+      <class name="TESTNG.TestNGXmlTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- TESTNG.TestNGXmlTest -->
+    </classes>
+  </test> <!-- demo Test(failed) -->
+</suite> <!-- Failed suite [demo] -->
